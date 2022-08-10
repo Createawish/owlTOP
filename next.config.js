@@ -1,7 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+module.exports = {
+    images: {
+        domains: ['courses-top.ru']
+    },
+    webpack(config) {
+        config.module.rules.push({
+            loader: '@svgr/webpack',
+            test: /\.svg$/,
+        });
 
-module.exports = nextConfig
+        return config;
+    },
+};

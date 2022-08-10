@@ -4,8 +4,8 @@ import {Button} from "../components/Button/Button";
 const Home: NextPage = () => {
   return (
     <>
-        <Button appearance="primary">Кнопка</Button>
-        <Button appearance="ghost">Кнопка 2</Button>
+        <Button appearance="primary" arrow='right'>Кнопка</Button>
+        <Button appearance="ghost" arrow='right'>Кнопка 2</Button>
     </>
   )
 }

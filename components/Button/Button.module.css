@@ -25,6 +25,22 @@
 }
 .ghost:hover{
     background: var(--primary);
+}
+.arrow{
+    display: inline-block;
+    margin-left: 10px;
 
+}
+.down{
+    transform: rotate(90deg);
+    transition: all 0.2s;
+}
+.right{
 
+}
+.primary svg,
+.ghost:hover svg{
+    padding-top: 3px;
+    fill: var(--white);
+    overflow: visible !important;
 }
