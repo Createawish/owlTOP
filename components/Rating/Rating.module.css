@@ -1,0 +1,11 @@
+.filled{
+    fill: var(--primary)
+}
+.arrstars{
+    display: flex;
+}
+.star{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
