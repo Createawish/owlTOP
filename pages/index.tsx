@@ -25,7 +25,7 @@ function Home({menu}:HomeProps): JSX.Element {
         <Rating rating={rating} isEditable={true} setRating={setRating}/>
         <div>
         <ul>
-            {menu.map((el) => (<li key={el.total}>{el.totalPages}</li>))}
+            {/*{menu.map((el) => (<li key={el.total}>{el.totalPages}</li>))}*/}
 
         </ul>
         </div>

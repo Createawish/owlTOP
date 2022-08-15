@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL =`${process.env.NEXT_PUBLIC_API}+/api/v2.2`;
+export const API_URL =`${process.env.NEXT_PUBLIC_API}/api/v2.2`;
 
 const http = axios.create({
     headers: {
