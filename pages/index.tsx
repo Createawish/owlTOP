@@ -10,7 +10,7 @@ import axios from "axios";
 import {MenuItem} from "../Interfaces/menu.inteface";
 import http from "../utils/api";
 
-function Home({menu}:HomeProps): JSX.Element {
+function Home({menu}: any): JSX.Element {
     const [rating, setRating] = useState(4);
     console.log("menu", menu);
   return (
@@ -25,7 +25,7 @@ function Home({menu}:HomeProps): JSX.Element {
         <Rating rating={rating} isEditable={true} setRating={setRating}/>
         <div>
         <ul>
-            {/*{menu.map((el) => (<li key={el.total}>{el.totalPages}</li>))}*/}
+            {menu.items.map((el) => (<li key={el.total}>{el.nameRu}</li>))}
 
         </ul>
         </div>
