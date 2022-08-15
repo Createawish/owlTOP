@@ -1,6 +1,6 @@
 import {ButtonProps} from "./ButtonProps";
 import styles from './Button.module.css';
-import ArrowIcon from './arrow.svg'
+import ArrowIcon from './arrow.svg';
 import cn from 'classnames';
 import React, {ImgHTMLAttributes} from "react";
 
@@ -20,5 +20,5 @@ export const Button = ({children, appearance, arrow = 'none'}: ButtonProps):JSX.
                     <ArrowIcon/>
                 </span>}
             </button>
-    )
-}
+    );
+};

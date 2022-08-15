@@ -30,7 +30,7 @@ export const Rating =({isEditable = false, rating,setRating, className, ...props
                         onKeyDown ={(e: KeyboardEvent<SVGAElement>) => isEditable && handleSpace(i+1,e)}
                     />
                     </span>
-                )
+                );
             });
             setRatingfArray(updateArray);
         };
@@ -52,11 +52,11 @@ export const Rating =({isEditable = false, rating,setRating, className, ...props
             return;
         }
         setRating(i);
-    }
+    };
     return (
         <div {...props} className={styles.arrstars}>
             {ratingArray.map((r,i) =>(<span key={i}>{r}</span>))}
         </div>
 );
 
-}
+};

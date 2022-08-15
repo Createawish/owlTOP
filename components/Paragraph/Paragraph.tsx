@@ -14,4 +14,4 @@ export const Paragraph =({children, size='m', className, ...props}:ParagraphProp
         </p>
 );
 
-}
+};

@@ -7,5 +7,5 @@ export const SideBar = ({...props}: SideBarProps) :JSX.Element =>{
         <div {...props}>
             SideBar
             </div>
-    )
- }
+    );
+ };

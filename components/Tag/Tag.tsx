@@ -16,5 +16,5 @@ export const Tag = ({children,size,color='ghost',className,href, ...props}:TagPr
 
         </div>
 
-)
+);
 };
